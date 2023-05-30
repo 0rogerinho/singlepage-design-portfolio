@@ -5,7 +5,7 @@ export const AboutMe = () => {
     <div className="mt-[136px] flex flex-col items-center md:flex-row gap-10 md:gap-[69px] lg:gap-[50px] xl:gap-[125px] md:ml-[-55px] lg:ml-0 md:px-5 lg:justify-center ">
       <img
         className="block w-[18.75rem] md:w-[22.75rem] xl:w-[400px] h-[18.75rem] md:h-[22.75rem] xl:h-[400px] "
-        src="src/assets/image-removebg-preview(563) (1).svg"
+        src="/image-removebg-preview(563) (1).svg"
         alt="my"
       />
       <section className="flex flex-col gap-4 md:gap-[32px] items-center md:items-start">

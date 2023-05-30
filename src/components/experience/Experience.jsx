@@ -16,7 +16,7 @@ export const Experience = () => {
         width="max-w-[21.4375rem]"
         heigth="max-h-[22.75rem]"
         bgColor="bg-galacticBlue"
-        srcImg="src/assets/pattern-graphic-design.svg"
+        srcImg="/pattern-graphic-design.svg"
         title="Graphic Design"
         gap="gap-[120px]"
       />
@@ -26,7 +26,7 @@ export const Experience = () => {
             width="max-w-[9.9375rem]"
             heigth="max-h-[11.375rem]"
             bgColor="bg-summerYellow"
-            srcImg="src/assets/pattern-ui-ux.svg"
+            srcImg="/pattern-ui-ux.svg"
             title="UI/UX"
             gap="gap-[75px]"
           />
@@ -34,7 +34,7 @@ export const Experience = () => {
             width="max-w-[9.9375rem]"
             heigth="max-h-[11.375rem]"
             bgColor="bg-pink"
-            srcImg="src/assets/pattern-apps.svg"
+            srcImg="/pattern-apps.svg"
             title="Apps"
             gap="gap-[73px]"
           />
@@ -43,7 +43,7 @@ export const Experience = () => {
           width="max-w-[21.4375rem]"
           heigth="h-[162px]"
           bgColor="bg-lightRed"
-          srcImg="src/assets/pattern-illustrations.svg"
+          srcImg="/pattern-illustrations.svg"
           title="Apps"
           gap="gap-[45px]"
         />
@@ -53,7 +53,7 @@ export const Experience = () => {
           width="max-w-[21.4375rem]"
           heigth="h-[183px] "
           bgColor="bg-cyan"
-          srcImg="src/assets/pattern-photography.svg"
+          srcImg="/pattern-photography.svg"
           title="Photogrphy"
           gap="gap-[70px]"
         />
@@ -61,7 +61,7 @@ export const Experience = () => {
           width="max-w-[21.4375rem]"
           heigth="h-[183px] xl:h-[160px] "
           bgColor="bg-darkPurple"
-          srcImg="src/assets/pattern-motion-graphics.svg"
+          srcImg="/pattern-motion-graphics.svg"
           title="Motion Graphics"
           gap="gap-[70px] lg:gap-[50px]"
         />

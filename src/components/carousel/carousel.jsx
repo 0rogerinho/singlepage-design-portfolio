@@ -55,25 +55,25 @@ export const Carousel = () => {
     <div className="mt-[6.25rem] md:mt-[7.5rem] lg:mt-[5.5rem] flex flex-col gap-14">
       <h1 className="text-center text-2xl md:text-3xl font-bold">My Works</h1>
       <div className="flex overflow-hidden gap-8 " ref={carousel}>
-        <Img srcImg="src/assets/image-slide-1.jpg" />
-        <Img srcImg="src/assets/image-slide-2.jpg" />
-        <Img srcImg="src/assets/image-slide-3.jpg" />
-        <Img srcImg="src/assets/image-slide-4.jpg" />
-        <Img srcImg="src/assets/image-slide-5.jpg" />
+        <Img srcImg="/image-slide-1.jpg" />
+        <Img srcImg="/image-slide-2.jpg" />
+        <Img srcImg="/image-slide-3.jpg" />
+        <Img srcImg="/image-slide-4.jpg" />
+        <Img srcImg="/image-slide-5.jpg" />
       </div>
 
       <div className="flex justify-center gap-4">
         <button onClick={handleMoveLeft} className="bg-black rounded-full">
           <img
             className="block p-6"
-            src="src/assets/icon-arrow-left.svg"
+            src="/icon-arrow-left.svg"
             alt="Left arrow"
           />
         </button>
         <button onClick={handleMoveRight} className="bg-black rounded-full">
           <img
             className="block p-6"
-            src="src/assets/icon-arrow-right.svg"
+            src="/icon-arrow-right.svg"
             alt="Right arrow"
           />
         </button>
@@ -99,21 +99,21 @@ export const Carousel = () => {
   //         <div>
   //           <img
   //             className=" rounded-[20px]"
-  //             src="src/assets/image-slide-1.jpg"
+  //             src="/image-slide-1.jpg"
   //           />
   //         </div>
   //
   //
-  //         <img className=" rounded-[20px]" src="src/assets/image-slide-2.jpg" />
+  //         <img className=" rounded-[20px]" src="/image-slide-2.jpg" />
   //
   //
-  //         <img className=" rounded-[20px]" src="src/assets/image-slide-3.jpg" />
+  //         <img className=" rounded-[20px]" src="/image-slide-3.jpg" />
   //
   //
-  //         <img className=" rounded-[20px]" src="src/assets/image-slide-4.jpg" />
+  //         <img className=" rounded-[20px]" src="/image-slide-4.jpg" />
   //
   //
-  //         <img className=" rounded-[20px]" src="src/assets/image-slide-5.jpg" />
+  //         <img className=" rounded-[20px]" src="/image-slide-5.jpg" />
   //
   //     </Swiper>
   //   </div>
