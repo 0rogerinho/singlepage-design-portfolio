@@ -1,4 +1,4 @@
-import { ButtonBlack } from '../button/button';
+import { ButtonBlack } from '../button/Button';
 
 export const Header = () => {
   return (
