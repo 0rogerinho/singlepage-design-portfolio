@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonLightRed } from '../button/button';
+import { ButtonLightRed } from '../button/Button';
 
 const CallMe = () => {
   return (
